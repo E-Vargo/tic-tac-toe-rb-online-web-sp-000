@@ -160,6 +160,7 @@ end
 end
 
 def play(board)
+turn_count(board)
 current_player(board)
 turn(board)
 over?(board)
