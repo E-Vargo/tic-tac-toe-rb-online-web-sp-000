@@ -77,7 +77,6 @@ def winner(board)
 end
 end
 
-board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 char = "X"
 index = 0
 
