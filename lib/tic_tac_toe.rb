@@ -132,9 +132,9 @@ def turn(board)
   if valid_move?(board, index)
     move(board, index, current_player(board))
     display_board(board)
-    over?(board)
     won?(board)
     draw?(board)
+    over?(board)
   else
     turn(board)
   end
