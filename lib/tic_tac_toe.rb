@@ -94,7 +94,7 @@ end
 
 
 
-def move(board, index, char = "X")
+def move(board, index, char)
     board[index] = char
 end
 
