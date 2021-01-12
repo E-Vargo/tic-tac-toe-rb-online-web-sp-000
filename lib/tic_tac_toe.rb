@@ -155,3 +155,7 @@ else
   current_player = "O"
 end
 end
+
+def play(board)
+
+end
