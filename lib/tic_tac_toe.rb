@@ -160,7 +160,7 @@ end
 end
 
 def play(board)
-
+current_player(board)
 turn(board)
 over?(board)
 won?(board)
