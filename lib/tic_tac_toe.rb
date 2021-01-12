@@ -89,8 +89,8 @@ end
 
 
 
-def move(board, index, current_player(board))
-    board[index] = current_player(board)
+def move(board, index, current_player)
+    board[index] = current_player
 end
 
 
