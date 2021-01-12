@@ -163,8 +163,9 @@ def play(board)
 
 loop do turn(board)
   if draw?(board) || over?(board) || won?(board)
-    break
-end
+  end
+  break
+
 
 
 
