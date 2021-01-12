@@ -161,15 +161,6 @@ end
 
 def play(board)
 
-loop do turn(board)
-  if draw?(board) || over?(board) || won?(board)
-  end
-  break
-
-
-
-
-
-
-
+while !won?(board) && !draw(board) && !over(board)
+  turn(board)
 end
