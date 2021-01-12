@@ -148,7 +148,7 @@ index = input_to_index(input)
    display_board(board)
 else
   loop do
-    play(board)
+    turn(board)
 break
 end
 end
