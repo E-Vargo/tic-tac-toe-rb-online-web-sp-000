@@ -160,12 +160,8 @@ end
 end
 
 def play(board)
-turn_count(board)
-current_player(board)
-turn(board)
-over?(board)
-won?(board)
-draw?(board)
+
+loop do turn(board)
 
 
 
