@@ -144,7 +144,7 @@ index = input_to_index(input)
 
 
  if valid_move?(board, index) == true
-   move(board, index, char = "X")
+   move(board, index, char)
    display_board(board)
 else
   loop do
