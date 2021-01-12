@@ -160,6 +160,8 @@ def play(board)
 
 turn(board)
 over?(board)
+won?(board)
+draw?(board)
 
 
 
