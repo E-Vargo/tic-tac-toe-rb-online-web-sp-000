@@ -158,11 +158,6 @@ end
 end
 
 def play(board)
-  current_player(board)
-  turn(board)
-  over?(board)
-  won?(board)
-  draw?(board)
 
 while !won?(board) && !draw?(board) && !over?(board)
   turn(board)
