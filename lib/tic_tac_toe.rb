@@ -128,6 +128,15 @@ end
 
 
 
+def turn_count(board)
+x = 0
+while x < 9
+turn(board)
+x += 1
+
+end
+end
+
 def turn(board)
   puts "Please enter 1-9:"
 input = gets.strip
